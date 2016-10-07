@@ -13,7 +13,7 @@ for (var i=0; i < len; i++) {
 
 $(".color").click(function(){
 
-	if (checked() === true ){
+	if (checked()){
 
 		$(".main").css("color",$(this).data("color"));
 	
